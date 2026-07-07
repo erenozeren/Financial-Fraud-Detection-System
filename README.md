@@ -2,6 +2,13 @@
 
 This project is an end-to-end Machine Learning application designed to analyze and predict the risk of financial fraud based on transaction details (such as transaction type, amount, and sender/receiver balances). It features an analysis pipeline built using Scikit-Learn and an interactive, user-friendly interface powered by **Streamlit** to facilitate live predictions.
 
+##  Dataset
+Due to GitHub's file size limitations, the dataset used in this project is not included in the repository. 
+
+1. Download the dataset from https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset
+2. Create a folder named `data` in the project root directory.
+3. Place the downloaded `AIML Dataset.csv` file inside the `data/` folder before running the notebook or the app.
+
 ##  Project Structure
 
 * **`analysis_model.ipynb`**: Contains the complete exploratory data analysis (EDA), data preprocessing (scaling and encoding), model training, evaluation metrics, and the persistence steps.
